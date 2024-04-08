@@ -1,0 +1,512 @@
+  @font-face {
+    font-family: "agencyfb";
+    src:
+      url("./fonts/agencyfb_bold-webfont.woff2") format("woff2"),
+      url("./fonts/agencyfb_bold-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "gilroy";
+    src: 
+      url("./fonts/gilroy-light-webfont.woff") format("woff2"),
+      url("./fonts/gilroy-light-webfont.woff2") format("woff");
+  }
+
+  body {
+    background-image: url('image/img/backgr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .lineblockup {
+    position: absolute;
+    top: 20px;
+    right: -120px;
+  }
+
+  .lineblock{
+    position: absolute;
+    top: -50px;
+    right: -80px;
+  }
+  
+  .lineblockr{
+    position: absolute;
+    top: -50px;
+    left: -80px;
+  }
+
+  .person-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .person {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: -20%;
+    bottom: -50px;
+  }
+
+  .groundblurtwo{
+    border-radius: 1117px;
+    width: 1117px;
+    height: 1117px;
+    opacity: 0.25;
+    background: #547AFF;
+    filter: blur(330px);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .store {
+    margin-left: auto;
+  }
+
+  .header__wrapper{
+    display: flex;
+    align-items: center;
+  } 
+
+  .title{
+    color: white;
+    font-family: 'agencyfb';
+    font-weight: 700;
+    font-size: 48px;
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+
+  .text{
+    width: 144px;
+    display: block;
+    font-family: 'gilroy';
+    color: rgba(255, 255, 255, 0.55); 
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .info{
+    display: flex;
+  }
+
+  .discord{ 
+    position: relative;
+    max-width: 1100px;
+    width: 350px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.01);
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .groundblur{
+    width: 333px;
+    height: 82px;
+    background-color: rgba(217, 217, 217, 0.25);
+    filter: blur(89px);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .discord {
+    text-align: center;
+  }
+
+  .discordimg {
+    position: relative; 
+  }
+
+  .discordlogo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 40px;
+    transform: translate(-50%, -50%);
+  }
+
+  .discordlogoright {
+    position: absolute;
+    top: 150px;
+    right: 0;
+  }
+
+  .discordlogoleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-radius: 20px 0 0 0;
+  }
+
+  .textinfo {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    width: 100%; 
+    text-align: center;
+  }
+
+  .discinfo{
+    color: white;
+    font-family: 'agencyfb';
+    font-size: 32px;
+    font-weight: 700;
+    display: block;
+    margin: 0;
+  }
+
+  .disctext{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: 'gilroy';
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+  }
+
+  .visit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 263px;
+    height: 45px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(255, 64, 156, 0.55);
+    background: rgba(255, 64, 156, 0.1);
+    box-shadow: 0px 20px 60.8px 0px rgba(255, 64, 156, 0.25); 
+    z-index: 2;
+  }
+
+  a{
+    font-family: 'gilroy';
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: rgba(255, 64, 156, 1);
+    transition: 0.3s ease
+  }
+
+  .ellipses {
+    position: relative;
+    width: 507px;
+    height: 507px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .ellipses img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130%;
+    height: auto; 
+  }
+
+  .player{
+    z-index: 3;
+    flex: 1;
+    display: flex;
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 11px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.music{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 53px;
+  height: 53px;
+  border: 1px solid rgba(255, 64, 156, 0.55);
+  border-radius: 7px;
+  background: rgba(255, 64, 156, 0.01);
+  align-self: center;
+  margin-left: 7px;
+}
+
+.volume{
+  display: flex; 
+  align-items: center; 
+  width: 150px;
+  height: 53px;
+  border: 1px solid rgba(255, 255, 255, 0.05);;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.01);;
+  align-self: center;
+  margin-left: 7px;
+}
+
+.scale{
+  width: 81px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.11);
+  position: relative;
+}
+
+.activeScale{
+  width: 100%;
+  position: relative;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.left, .right {
+  margin: 0 10px;
+}
+
+.slider{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+  width: 7px;
+  height: 13px;
+  border-radius: 2px;
+  background: rgba(255, 64, 156, 1);
+  box-shadow: 0 4px 10px rgba(255, 64, 156, 0.55);
+}
+
+.logomusic {
+  display: flex; 
+  align-items: center; 
+}
+
+.logomusic svg {
+  width: 23px;
+  height: 25px;
+}
+
+.back{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 53px;
+  height: 53px;
+  border: 1px solid rgba(255, 255, 255, 0.05);;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.01);;
+  align-self: center;
+  margin-left: 7px;
+}
+
+.back path {
+  fill: white;
+}
+
+.back:hover path {
+  fill: rgba(255, 64, 156, 1);
+  box-shadow: 0 4px 10px rgba(255, 64, 156, 0.55);
+}
+
+.play{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 53px;
+  height: 53px;
+  border: 1px solid rgba(255, 255, 255, 0.05);;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.01);;
+  align-self: center;
+  margin-left: 7px;
+}
+
+.forward{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 53px;
+  height: 53px;
+  border: 1px solid rgba(255, 255, 255, 0.05);;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.01);;
+  align-self: center;
+  margin-left: 7px;
+}
+
+.forward path {
+  fill: white;
+}
+
+.forward:hover path {
+  fill: rgba(255, 64, 156, 1);
+  box-shadow: 0 4px 10px rgba(255, 64, 156, 0.55);
+}
+
+.track {
+  height: 3px;
+  width: 950px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.11);
+  align-self: flex-end;
+  margin-bottom: 15px;
+  margin-left: 17px;
+}
+
+.song{
+  margin-top: -35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.songname{
+  font-family: 'gilroy';
+  font-size: 16px;
+  color: white;
+}
+
+.time{
+  font-family: 'gilroy';
+  font-size: 16px;
+  color: white;
+}
+
+.blocks{
+  display: flex;
+}
+
+.block{
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 155px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.01);
+  overflow: hidden;
+  align-items: center;
+}
+
+.leftline{
+  width: 3px;
+  height: 172px;
+  background: #FF409C;
+  box-shadow: 3px 0px 18.9px 0px rgba(255, 64, 156, 0.55);
+}
+
+.icon{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background: rgba(255, 64, 156, 0.07);
+  margin-left: 35px;
+  margin-top: -60px;
+}
+
+.username{
+  color: white;
+  font-family: 'agencyfb';
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-bottom: 80px;
+}
+
+.post{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 100px;
+  width: 86px;
+  height: 21px;
+  margin-top: -20px;
+  border-radius: 3px;
+  border: 1px solid #FF409C;
+  background: rgba(255, 64, 156, 0.11);
+  box-shadow: 0px 0px 5.9px 0px rgba(255, 64, 156, 0.25) inset, 0px 4px 14.3px 0px rgba(255, 64, 156, 0.25);
+}
+
+.posttext{
+  color: #FFF;
+  font-family: 'gilroy';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.apostrophe{
+  position: absolute;
+  margin-left: 100px;
+  margin-bottom: -90px;
+  margin-top: -20px;
+  width: 1px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.11);
+}
+
+.apostrophetext{
+  width: 298px;
+  display: block;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'gilroy';
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+.trackprocess{  
+  max-width: 1100px;
+  height: 3px;
+  border-radius: 7px;
+  background: white;
+  width: 0%;
+}
+
+.pause{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  width: 53px;
+  height: 53px;
+  border: 1px solid rgba(255, 255, 255, 0.05);;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.01);;
+  align-self: center;
+  margin-left: 7px;
+}

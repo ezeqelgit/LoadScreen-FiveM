@@ -1,0 +1,22 @@
+<svg width="964" height="75" viewBox="0 0 964 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="38" width="1" height="1080" transform="rotate(-90 0 38)" fill="url(#paint0_radial_2020_18)" fill-opacity="0.25"/>
+<g filter="url(#filter0_d_2020_18)">
+<rect x="492" y="39" width="3" height="95" transform="rotate(-90 492 39)" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_2020_18" x="456.2" y="0.200001" width="166.6" height="74.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="17.9"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2020_18"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2020_18" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_2020_18" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.5 578) rotate(90) scale(540 0.5)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
